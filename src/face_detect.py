@@ -1,7 +1,7 @@
 import cv2
 
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('/home/yashas/catkin_ws/src/img_to_xyz/src/face_detect_cascade.xml') #Change the File path (too lzy to edit cmakelists :))
+face_cascade = cv2.CascadeClassifier('/home/yashas/catkin_ws/src/img_to_xyz/src/face_detect_cascade.xml') #Change the File path (too lzy to edit cmakelists :) )
 
 # To capture video from webcam. 
 cap = cv2.VideoCapture(0)
